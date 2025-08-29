@@ -36,8 +36,14 @@ Dans `website/`,rennomez le fichier .env.example en .env , et renseignez la clé
 Depuis le dossier `nba-api/` :
 
 ```bash
-docker compose up -d   # lance PostgreSQL
+docker compose up -d
 ```
+Installer les dépendances symfony :
+
+```bash
+composer install
+```
+
 
 Créer la base et appliquer les migrations :
 
